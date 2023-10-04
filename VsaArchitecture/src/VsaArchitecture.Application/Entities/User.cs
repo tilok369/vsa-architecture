@@ -10,4 +10,6 @@ public class User: AuditableEntity
 
     public string? Email { get; set; }
     public string? Phone { get; set; }
+
+    public virtual ICollection<UserLoginHistory> UserLoginHistory { get; set; } = new List<UserLoginHistory>();
 }

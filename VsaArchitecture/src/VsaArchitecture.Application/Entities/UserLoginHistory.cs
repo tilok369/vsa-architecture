@@ -9,4 +9,6 @@ public class UserLoginHistory
     public string? IPAddress { get; set; }
     public string? UserAgent { get; set; }
     public DateTime? LoggedOutOn { get; set; }
+
+    public virtual User User { get; set; } = null!;
 }
