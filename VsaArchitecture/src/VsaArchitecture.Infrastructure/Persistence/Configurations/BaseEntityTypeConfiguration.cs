@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using VsaArchitecture.Application.Common;
+using VsaArchitecture.Application.Common.Entities;
 
 namespace VsaArchitecture.Infrastructure.Persistence.Configurations;
 

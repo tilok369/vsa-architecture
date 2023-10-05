@@ -1,4 +1,4 @@
-﻿using VsaArchitecture.Application.Common;
+﻿using VsaArchitecture.Application.Common.Entities;
 
 namespace VsaArchitecture.Application.Entities;
 

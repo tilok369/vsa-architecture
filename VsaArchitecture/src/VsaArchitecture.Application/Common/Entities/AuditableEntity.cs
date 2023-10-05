@@ -1,4 +1,4 @@
-﻿namespace VsaArchitecture.Application.Common;
+﻿namespace VsaArchitecture.Application.Common.Entities;
 
 public abstract class AuditableEntity
 {
